@@ -10,10 +10,6 @@ A Python utility for extracting and processing MSISDN (Mobile Station Internatio
 - Configurable retry and error handling
 - Flexible output options
 
-## Installation
-```bash
-pip install .
-```
 
 ## Usage
 ```python
