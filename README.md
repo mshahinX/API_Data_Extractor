@@ -1,4 +1,4 @@
-# MSISDN Extractor
+# API Data Extractor
 
 ## Overview
 A Python utility for extracting and processing MSISDN (Mobile Station International Subscriber Directory Number) data from various file formats.
