@@ -185,10 +185,10 @@ class MSISDNRequestExtractor:
             raise
 
 def main():
-    base_url = "http://account-service-amdocs-qa-tests.k8s-stage.azercell.com/api/v1/contacts/search"
-    input_file = "C:\\Users\\smammadzada\\Desktop\\test.csv"  
+    base_url = "https://example.com/"
+    input_file = "test.csv"  
     msisdn_column = "msisdn" 
-    keys_to_extract = ["individualId", "accounts.accountInternalId", "document.pin"]
+    keys_to_extract = ["data1", "data2", "data3"]
 
 
     try:
@@ -197,7 +197,7 @@ def main():
             input_file=input_file,
             msisdn_column=msisdn_column,
             keys_to_extract=keys_to_extract,
-            output_file="C:\\Users\\smammadzada\\Desktop\\result_lwt.csv" 
+            output_file="result_lwt.csv" 
         )
     except Exception as e:
         print(f"Error in main: {e}")
